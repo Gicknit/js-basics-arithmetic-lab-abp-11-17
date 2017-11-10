@@ -15,4 +15,4 @@ const randomNumber = Math.random();
 
 const randomInteger = Math.round(Math.floor(randomNumber));
 
-const randomUserID = Number.isNaN(randomInteger);
+const randomUserID = Number.isNaN(randomInteger)*20;
