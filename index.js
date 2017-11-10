@@ -13,6 +13,6 @@ let ageIsValid = Number.isInteger(currentAge);
 
 let randomNumber = Math.random();
 
-let randomInteger = Math.round(Math.floor(randomNumber));
+const randomInteger = Math.round(Math.floor(randomNumber));
 
 let randomUserID = Number.isInteger(randomInteger)*20;
