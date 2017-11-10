@@ -15,4 +15,4 @@ const randomNumber = Math.random();
 
 const randomInteger = Math.round(Math.floor(randomNumber));
 
-const randomUserID = Math.random(Math.round()) *20;
+const randomUserID = Math.round(Math.random()) *20;
