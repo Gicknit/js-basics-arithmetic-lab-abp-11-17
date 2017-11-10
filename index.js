@@ -15,4 +15,4 @@ let randomNumber = Math.random();
 
 let randomInteger = Math.round(Math.floor(randomNumber));
 
-let randomUserID = randomInteger.isInteger *20;
+let randomUserID = Number.isInteger(randomInteger);
